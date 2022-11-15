@@ -1,1 +1,1 @@
-# Haikyuu.github.io
+# haikyuu.github.io
