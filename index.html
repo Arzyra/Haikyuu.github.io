@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HAIKYU!!</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+        <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
+            <h2 class="mb-2 text-white"><img src="haikyu logo.png" width="200px"></h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Beranda</a>
+                <a href="profile.html" class="nav-item nav-link">Profile</a>
+                <a href="berita.html" class="nav-item nav-link">Berita</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tentang</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="season.html" class="dropdown-item">season</a>
+                        <a href="team.html" class="dropdown-item">Team</a>
+                    </div>
+                </div>
+                <a href="galeri.html" class="nav-item nav-link">Galeri</a>
+                <a href="komentar.html" class="nav-item nav-link">Komentar</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5">
+        <div class="owl-carousel header-carousel position-relative mb-5">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="header.png" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">HAIKYU!!</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Popularitas #37 <span class="text-primary"><p>Rating</span> 8.4</h1></p>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Anime haikyu adalah anime bergenre shounen,sport.</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Selengkapnya</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Komentar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="header 2.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">HAIKYU!!</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Popularitas #37 <span class="text-primary"><p>Rating</span> 8.4</h1></p>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Anime haikyu adalah anime bergenre shounen,sport</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Selengkapnya</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Komentar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container about py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="sejarah haikyu.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="text-secondary text-uppercase mb-3">Tentang</h6>
+                    <h1 class="mb-5">Sejarah</h1>
+                    <p class="mb-5">Haikyu!!,  yang diterbitkan di Indonesia dengan judul Haikyu!! Fly High! Volleyball!, adalah sebuah seri manga shōnen asal
+                        Jepang yang ditulis dan diilustrasikan oleh Haruichi Furudate. Bab-bab tunggalnya telah dimuat dalam majalah
+                        Weekly Shōnen Jump sejak bulan Februari 2012 hingga Juli 2020. Manga ini pada awalnya dirilis sebagai cerita 
+                        one shot dalam majalah musiman Jump NEXT! milik Shueisha sebelum dimuat berseri. Per bulan Juli 2020,
+                        empat puluh lima volume tankōbon telah diterbitkan oleh Shueisha.Manga ini diadaptasi menjadi seri anime yang diproduksi oleh Production I.G,
+                     dan ditayangkan sejak bulan April hingga September 2014. Musim keduanya ditayangkan sejak bulan Oktober 2015 hingga Maret 2016. Musim ketiga ditayangkan sejak bulan Oktober hingga Desember 2016. Musim keempat ditayangkan sejak bulan Januari hingga April 2020.</p>
+                    
+                    <a href="" class="btn btn-primary py-3 px-5">Selengkapnya</a>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Fact Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">TENTANG</h6>
+                    <h1 class="mb-5">AYO NONTON HAIKYU!!</h1>
+                    <p class="mb-5">Lupakan semua tentang cerita yang ada dalam anime Tsubasa dengan jurus tendangan elang atau lari secepat kilat. Kamu tidak akan menemukan jurus apa pun di dalam anime Haikyuu!! Anime ini hanya menampilkan yang memang bisa dilakukan di dunia nyata, seperti pukulan tipuan atau penyelamatan dari sebuah block.
+                        Dengan begitu, menonton animenya pun jadi lebih menyenangkan.
+                       Haruichi Furudate juga tampak melakukan banyak riset seputar olahraga voli. Pasalnya, akan ada banyak teknik olahraga yang ditampilkan di Haikyu!!, seperti Tempo 1, Tempo 2, hingga Minus Tempo. Jadi, kamu bisa menonton sambil belajar deh!</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-4 align-items-center">                            
+                        <div class="col-sm-6">
+                            <div class="bg-success p-4 wow fadeIn" data-wow-delay="0.7s">
+                                <i class="fa fa-star fa-2x text-white mb-3"></i>
+                                <h2 class="text-white mb-2" data-toggle="counter-up">8.451</h2>
+                                <p class="text-white mb-0">Rating</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fact End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">HAIKYU!!</h6>
+                <h1 class="mb-5">Memori Haikyu!!</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="karasunovsaobajohsai.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Karasuno VS Aoba Johsai </h4>
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Selengkapnya</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="karasunovsinarizaki.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Karasuno VS Inarizaki</h4>
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Selengkapnya</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="karasunovsshiratoizawa.webp" alt="">
+                        </div>
+                        <h4 class="mb-3">Karasuno VS Shiratoizawa</h4>
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Selengkapnya</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="karasunovsnekoma.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Karasuno VS Nekoma</h4>
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Selengkapnya</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="karasunovsjohzenji.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Karasuno VS Johzenji</h4>
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Selengkapnya</span></a>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container feature py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Sinopsis</h6>
+                    <h6 class="mb-5">Haikyuu!!' lebih dulu dikenal sebagai serial manga tentang sekelompok murid SMA yang menjadi atlet voli di sekolah mereka, SMA Karasuno. Tokoh utama dalam serial ini adalah Hinata Shouyo yang gemar bermain voli sejak usia belia. 
+                        Sudah dari kecil Hinata menjadi penggemar salah satu tim voli terhebat di wilayahnya. Pertandingan yang ia tonton, menginspirasi dirinya untuk tergabung seperti tim Karasuno yang terkenal. 
+                        Tim Karasuno memiliki sebutan “Raksasa Kecil” yang mana berisi anggota-anggota kecil namun sangat hebat. Hinata sendiri memiliki tinggi hanya 163cm, sehingga dinilai belum memenuhi kriteria tinggi standar seorang pemain voli.    
+                        Namun, Hinata berhasil mengalihkan perhatian orang dari tubuh kecilnya dan keahliannya dalam bermain voli, ketika ia mampu melompat tinggi melampaui net voli.</h6>
+                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="sinopsis.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    
+    
+
+
+    <!-- Quote Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Season</h6>
+                    <h1 class="mb-5">Season Haikyu!!</h1>
+                    <p class="mb-5">Haikyu!! memiliki 4 season dan akan muncul season 5 nya, bagiaimana pendapat anda tentang Haikyu!! di setiap sesasonnya.Tulis ulasanmu setelah menonton anime Haikyu!! </p>
+                    <div class="d-flex align-items-center">
+                    <div class="ps-4">      
+                 </div>
+             </div>
+         </div>
+                <div class="col-lg-7">
+                    <div class="bg-light text-center p-5 wow fadeIn" data-wow-delay="0.5s">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Nama" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Seluler" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Season</option>
+                                        <option value="1">Season 1</option>
+                                        <option value="2">Season 2</option>
+                                        <option value="3">Season 3</option>
+                                        <option value="4">Season 4</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Ulasan"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Kirim</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">PEMBUAT</h6>
+                <h1 class="mb-5">PEMBUAT ANIME HAIKYU!!</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="penulis.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Haruichi Furudate</h5>
+                        <p>Pengarang</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="skenario.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Taku Kisimoto</h5>
+                        <p>Penulis Sekenario</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="studio.png" alt="">
+                        </div>
+                        <h5 class="mb-0">PRODUCTION I.G</h5>
+                        <p>Studio</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="animator.png" alt="">
+                        </div>
+                        <h5 class="mb-0">Susumu Mitsunaka & Masako Sato</h5>
+                        <p>Animator</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="text-center">
+                <h6 class="text-secondary text-uppercase">Komentar</h6>
+                <h1 class="mb-0">Ulasan</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="aurelia.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Aurelia</h5>
+                            <p class="m-0">Pelajar</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Anime ini sangat bagus, bercerita tentang bagaimana arti kerja sama team dan arti kebersamaan. </p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="anna.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Anna Tri</h5>
+                            <p class="m-0">Mahasiswa</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Ceritanya sangat menarik untuk ditonton, Hinatanya keren bisa melompat tinggi banget</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="riski.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Riski</h5>
+                            <p class="m-0">Mahasiswa</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Biarpun ini anime bertema tentang olahraga tetapi kamu bisa tertawa saat menontonnya</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="rahma.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Rahma</h5>
+                            <p class="m-0">Pelajar</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Penulisan ceritanya cukup pandai menaruh lawakan di sela-sela keseruan cerita</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Informasi</h4>
+                    <p>Rating = 8.4 </p>
+                    <p>Suara = 1.110.714</p>
+                    <p>Popularitas = #37</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Berita baru</h4>
+                    <p>Haikyu!!</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Pesan">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Langganan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Arzy Risqia Amalia</a>,@arz_ra06.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">TKJ 1</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
